@@ -18,6 +18,9 @@ The minimum of the function is f(0,0)=0.
 Compare to this 6 figures, we can see that the smaller step size, the longer time to computer and the larger of iteration number.
 
 ![minvsstep](https://user-images.githubusercontent.com/52762661/61017108-f05d3c80-a389-11e9-95f7-5a7479602f2d.png)
+
 [figure7]This figure plot the step size with corresponding minimun function value. As the figure show, if the step size smaller than 0.001, then the minimum value of function will be larger than the actual minimum value(0). In other words, if the step size is too small, the gradient descent process can't find the actual minimum value of the function.
+
 ![ieration](https://user-images.githubusercontent.com/52762661/61017111-f2270000-a389-11e9-8545-cf36074b7933.png)
-[figure8]
+
+[figure8]This figure plot the step size with coreesponding number of iteration. From the figure, we can see that as the step size becomes smaller, the number of iteration will become larger, which match the information shown in figure1 to figure6.
