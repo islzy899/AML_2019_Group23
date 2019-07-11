@@ -25,5 +25,14 @@ Compare to this 6 figures, we can see that the smaller step size, the longer tim
 
 [figure8]This figure plot the step size with coreesponding number of iteration. From the figure, we can see that as the step size becomes smaller, the number of iteration will become larger, which match the information shown in figure1 to figure6.
 
+## 4. Momentum Gradient Descent: starting point(x1=3,x2=3) 
+#### 4.1 Experiments with different step sizes (0.01,0.001,0.0001) ,the number of iteration chosen is 10000
+![mo](https://user-images.githubusercontent.com/52762661/61021679-69fd2680-a39a-11e9-9877-d10ff983a68a.png)
 
+[figure9]This figure plot the step size with corresponding minimum value of fucntion. The figure shows the similar result as vanilla gradient descent figure7. The result is stable when step size bigger than 0.001.
 
+## 5. Nesterov’s Accelerated Gradient (NAG): starting point(x1=3,x2=3) 
+#### 5.1 Experiments with different step sizes (0.01,0.001,0.0001) ,the number of iteration chosen is 10000
+![nag](https://user-images.githubusercontent.com/52762661/61021683-6bc6ea00-a39a-11e9-8f56-ba79a0693f6e.png)
+
+[figure10]This figure plot the step size with corresponding minimum value of function. As the figure shows, the minimum value has a steep decrease as step size changes from 0 to 0.001. After 0.001,the value decreases a bit slowly as step size is between 0.001 to 0.01.
