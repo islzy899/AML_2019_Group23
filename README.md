@@ -10,11 +10,13 @@ The function is usually evaluated on the square xi ∈ [-4, 4], for all i = 1, 2
 
 The minimum of the function is f(0,0)=0.
 ## 3. Plain vanilla Gradient Descent: starting point(x1=3,x2=3)
-### 3.1 Experiments with different step sizes (0.01,0.001,0.0001) ,the number of iteration chosen is 10000
-![step111](https://user-images.githubusercontent.com/52762661/61017074-d91e4f00-a389-11e9-82c2-b726ae5fe2e5.png)
+#### 3.1 Experiments with different step sizes (0.01,0.001,0.0001) ,the number of iteration chosen is 10000
+![step111](https://user-images.githubusercontent.com/52762661/61017332-b93b5b00-a38a-11e9-999c-069a2c6c695e.png)
 ![step1](https://user-images.githubusercontent.com/52762661/61017037-b5f39f80-a389-11e9-968c-cc69c0393dc5.png)
 ![step2](https://user-images.githubusercontent.com/52762661/61017068-cd328d00-a389-11e9-82f8-89b7e7651555.png)
-The 3 figures in the left side show different step size in gradient descent to find the minimum value of the function.
+The 6 figures show the path to find the minimum value of the function in different step size of gradient descent.
+Compare to this 6 figures, we can see that the smaller step size, the longer time to computer and the larger of iteration number.
+in the left side show different step size in gradient descent to find the minimum value of the function.
 
 
 
