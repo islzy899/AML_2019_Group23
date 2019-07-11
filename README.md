@@ -14,12 +14,10 @@ The minimum of the function is f(0,0)=0.
 ![step111](https://user-images.githubusercontent.com/52762661/61017332-b93b5b00-a38a-11e9-999c-069a2c6c695e.png)
 ![step1](https://user-images.githubusercontent.com/52762661/61017037-b5f39f80-a389-11e9-968c-cc69c0393dc5.png)
 ![step2](https://user-images.githubusercontent.com/52762661/61017068-cd328d00-a389-11e9-82f8-89b7e7651555.png)
-The 6 figures show the path to find the minimum value of the function in different step size of gradient descent.
+[figure1-6]The 6 figures show the path to find the minimum value of the function in different step size of gradient descent.
 Compare to this 6 figures, we can see that the smaller step size, the longer time to computer and the larger of iteration number.
-in the left side show different step size in gradient descent to find the minimum value of the function.
-
-
-
 
 ![minvsstep](https://user-images.githubusercontent.com/52762661/61017108-f05d3c80-a389-11e9-95f7-5a7479602f2d.png)
+[figure7]This figure plot the step size with corresponding minimun function value. As the figure show, if the step size smaller than 0.001, then the minimum value of function will be larger than the actual minimum value(0). In other words, if the step size is too small, the gradient descent process can't find the actual minimum value of the function.
 ![ieration](https://user-images.githubusercontent.com/52762661/61017111-f2270000-a389-11e9-8545-cf36074b7933.png)
+[figure8]
