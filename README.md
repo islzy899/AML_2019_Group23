@@ -37,5 +37,5 @@ Compare to this 6 figures, we can see that the smaller step size, the longer tim
 
 [figure10]This figure plot the step size with corresponding minimum value of function. As the figure shows, the minimum value has a steep decrease as step size changes from 0 to 0.001. After 0.001,the value decreases a bit slowly as step size is between 0.001 to 0.01.
 
-## 6.Conclusion
+## 6. Conclusion
 Plain vanilla gradient descent is a useful and simple way to find the minimum value of a function. However, it has some drawbacks such as too much time consuming, effected easily by some parameters. Compared with the momentum and Nesterov’s Accelerated gradient descend, this two model perfrom a better result in finding the minimum more quickly in smaller iteration times and find a accurate minimum value of the function.
